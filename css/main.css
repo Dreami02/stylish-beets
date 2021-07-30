@@ -7,9 +7,10 @@ html {
 }
 
 body {
-  line-height: 1.5;
   background-color: #c9b5ab;
   font-family: "PT Serif", serif;
+  line-height: 1.5;
+  display: block;
 }
 
 h1, h2 {
@@ -21,8 +22,11 @@ h1 {
   font-size: 1.5rem;
 }
 
+nav {
+  display: block;
+}
+
 nav ol {
-  font-size: .8rem;
   list-style-type: none;
   font-family: "PT Sans", sans-serif;
 }
@@ -32,18 +36,22 @@ ol {
 }
 
 li {
-  display: block;
+  display: list-item;
 }
 
 a {
   color: #8f2440;
-  font-size: .125rem;
+  font-size: 1.125rem;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
   color: #3f1622;
+}
+
+figure {
+  display: block;
 }
 
 header {

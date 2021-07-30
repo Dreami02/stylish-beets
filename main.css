@@ -50,3 +50,33 @@ header {
   display: block;
   margin-bottom: 1.2rem;
 }
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  display: block;
+  font-style: italic;
+}
+
+div {
+  display:block;
+}
+
+main figure + p {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style:italic
+}
+
+strong {
+  font-weight: normal;
+}
+
+.common {
+  list-style-type: circle;

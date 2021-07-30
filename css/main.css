@@ -9,11 +9,11 @@ html {
 body {
   line-height: 1.5;
   background-color: #c9b5ab;
-  font-family: "Pt Serif", serif;
+  font-family: "PT Serif", serif;
 }
 
 h1, h2 {
-  font-family: "Pt San", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
 
@@ -24,7 +24,7 @@ h1 {
 nav ol {
   font-size: .8rem;
   list-style-type: none;
-  font-family: "Pt Serif", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 ol {

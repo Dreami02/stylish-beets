@@ -7,9 +7,9 @@ html {
 }
 
 body {
-  line height: 1.5;
-  background-color: #c9b5ab
-  font-family: "Pt Serif"
+  line-height: 1.5;
+  background-color: #c9b5ab;
+  font-family: "Pt Serif", serif;
 }
 
 h1, h2 {
@@ -18,17 +18,17 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 1,5rem;
+  font-size: 1.5rem;
 }
 
 nav ol {
-  font-size: 0.8rem
+  font-size: .8rem;
   list-style-type: none;
   font-family: "Pt Serif", sans-serif;
 }
 
 ol {
-  display:block;
+  display: block;
 }
 
 li {
@@ -37,7 +37,7 @@ li {
 
 a {
   color: #8f2440;
-  font-size: 0.125rem;
+  font-size: .125rem;
   text-decoration: none;
 }
 
@@ -50,6 +50,7 @@ header {
   display: block;
   margin-bottom: 1.2rem;
 }
+
 img {
   width: 100%;
 }
@@ -61,7 +62,7 @@ figcaption {
 }
 
 div {
-  display:block;
+  display: block;
 }
 
 main figure + p {
@@ -71,7 +72,7 @@ main figure + p {
 
 blockquote {
   font-size: 1.5rem;
-  font-style:italic
+  font-style: italic;
 }
 
 strong {
@@ -84,7 +85,7 @@ strong {
 
 dl + dt {
   font-weight: bold;
-)
+}
 
 .serving {
   font-style: italic;
@@ -95,4 +96,5 @@ aside ul {
 }
 
 small + a {
-  color: #8f2440
+  color: #8f2440;
+}

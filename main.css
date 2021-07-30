@@ -80,3 +80,19 @@ strong {
 
 .common {
   list-style-type: circle;
+}
+
+dl + dt {
+  font-weight: bold;
+)
+
+.serving {
+  font-style: italic;
+}
+
+aside ul {
+  list-style-type: circle;
+}
+
+small + a {
+  color: #8f2440
